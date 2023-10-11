@@ -5,15 +5,10 @@
  * @n: The first integer to be added.
  * @i: The second integer to be added.
  *
- * Return: the value of sum.
+ * Return: the result of addition.
  */
 int add(int n, int i)
 {
-	int sum;
-	sum = n + i;
-
-	_putchar(sum / 10 + '0');
-	_putchar(sum % 10 + '0');
-	return (sum);
+	return (n + i);
 }
 
