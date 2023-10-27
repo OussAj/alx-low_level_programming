@@ -1,20 +1,19 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - prints all the aguments it recieves.
- *
- * @argc: a variable.
- * @argv: a variable.
- *
- * Return: always 0
+ * main - function that prints all arguments it receives
+ * @argc: variable
+ * @argv:variable
+ * Return: result
  */
 int main(int argc, char *argv[])
 {
-	int i = 0;
-	for (; i < argc ; i++)
+	int c = 0;
+
+	for (; c < argc; c++)
 	{
-		printf("%s\n", argv[i]);
+		printf("%s\n", argv[c]);
 	}
 	return (0);
 }
