@@ -13,18 +13,19 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *s;
+	char *p;
 
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
-	s = malloc(nmemb * size);
-	if (s == NULL)
+	p = malloc(nmemb * size);
+	if (!p)
 	{
-		return(NULL);
+		return (NULL);
 	}
-	memset(s, 0, nmemb * size);
-	return (s);
+	memset(p, 0, nmemb * size);
+
+	return (p);
 }
 
