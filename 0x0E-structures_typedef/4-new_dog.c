@@ -41,8 +41,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 }
 /**
  * *_strdup - function that duplicates a string
-   @s: paremeter
- *  Return: result
+ * @s: paremeter
+ * Return: result
  */
 char *_strdup(char *s)
 {
