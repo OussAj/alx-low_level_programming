@@ -8,7 +8,6 @@
 int main(int argc, char *argv[])
 {
 	int f_rd, f_wr, i, j, k;
-
 	char buffer[BUFSIZ];
 
 	if (argc != 3)
